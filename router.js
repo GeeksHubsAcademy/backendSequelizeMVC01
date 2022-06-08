@@ -10,10 +10,10 @@ const ComputersRouter = require('./views/ComputersRouter');
 
 //Endpoints roots definition
 router.use('/users', UsersRouter);
-router.use('/rents', RentsRouter);
-router.use('/sales', SalesRouter);
-router.use('/specs', SpecsRouter);
-router.use('/computers', ComputersRouter);
+// router.use('/rents', RentsRouter);
+// router.use('/sales', SalesRouter);
+// router.use('/specs', SpecsRouter);
+// router.use('/computers', ComputersRouter);
 
 //Export
 module.exports = router;
